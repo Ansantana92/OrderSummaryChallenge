@@ -120,18 +120,18 @@ body{
             }
         }
         .secondary{
+            
+            color: $desaturated-blue;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 700;
 
-
-            a{
-                color:$desaturated-blue;
-                text-decoration:none;
-                font-size: 1.5rem;
-                font-weight: 700;
-
-                &:hover {
-                    color:$dark-blue;
-                }
+            &:hover {
+                color:$dark-blue;
             }
+
+            
+            
         }
     }
 }
