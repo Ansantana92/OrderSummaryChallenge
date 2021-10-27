@@ -48,6 +48,7 @@ body{
         .title{
             font-size: 2.2rem;
             font-weight: 900;
+            color:$dark-blue;
         }
 
         .description{
@@ -84,7 +85,7 @@ body{
                 color: $desaturated-blue;
                 font-size: 1.4rem;
                 font-weight: 700;
-                opacity: 0.5;
+                opacity: 0.9;
             }
 
             a{
@@ -121,17 +122,25 @@ body{
         }
         .secondary{
             
-            color: $desaturated-blue;
-            text-decoration: none;
-            font-size: 1.5rem;
-            font-weight: 700;
+            
+            a {color: $desaturated-blue;
+                text-decoration: none;
+                font-size: 1.5rem;
+                font-weight: 900;
 
             &:hover {
                 color:$dark-blue;
             }
-
+            
+            }
             
             
         }
     }
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
